@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1FA62A32-E9CB-4E10-82FD-8088D5AD28E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FinalDesigns</RootNamespace>
+    <AssemblyName>FinalDesigns</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ending Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ending Screen.Designer.cs">
+      <DependentUpon>Ending Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instructions Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instructions Screen.Designer.cs">
+      <DependentUpon>Instructions Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionPanel1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel1.Designer.cs">
+      <DependentUpon>QuestionPanel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel10.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel10.Designer.cs">
+      <DependentUpon>QuestionPanel10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel11.Designer.cs">
+      <DependentUpon>QuestionPanel11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel12.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel12.Designer.cs">
+      <DependentUpon>QuestionPanel12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel13.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel13.Designer.cs">
+      <DependentUpon>QuestionPanel13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel14.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel14.Designer.cs">
+      <DependentUpon>QuestionPanel14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel15.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel15.Designer.cs">
+      <DependentUpon>QuestionPanel15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel16.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel16.Designer.cs">
+      <DependentUpon>QuestionPanel16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel17.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel17.Designer.cs">
+      <DependentUpon>QuestionPanel17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel18.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel18.Designer.cs">
+      <DependentUpon>QuestionPanel18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel19.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel19.Designer.cs">
+      <DependentUpon>QuestionPanel19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel2.Designer.cs">
+      <DependentUpon>QuestionPanel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel20.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel20.Designer.cs">
+      <DependentUpon>QuestionPanel20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel3.Designer.cs">
+      <DependentUpon>QuestionPanel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel4.Designer.cs">
+      <DependentUpon>QuestionPanel4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel5.Designer.cs">
+      <DependentUpon>QuestionPanel5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel6.Designer.cs">
+      <DependentUpon>QuestionPanel6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel7.Designer.cs">
+      <DependentUpon>QuestionPanel7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel8.Designer.cs">
+      <DependentUpon>QuestionPanel8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPanel9.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestionPanel9.Designer.cs">
+      <DependentUpon>QuestionPanel9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Questions Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Questions Screen.Designer.cs">
+      <DependentUpon>Questions Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecondDraftQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecondDraftQuestions.Designer.cs">
+      <DependentUpon>SecondDraftQuestions.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ending Screen.resx">
+      <DependentUpon>Ending Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instructions Screen.resx">
+      <DependentUpon>Instructions Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QuestionPanel1.resx">
+      <DependentUpon>QuestionPanel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel10.resx">
+      <DependentUpon>QuestionPanel10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel11.resx">
+      <DependentUpon>QuestionPanel11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel12.resx">
+      <DependentUpon>QuestionPanel12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel13.resx">
+      <DependentUpon>QuestionPanel13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel14.resx">
+      <DependentUpon>QuestionPanel14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel15.resx">
+      <DependentUpon>QuestionPanel15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel16.resx">
+      <DependentUpon>QuestionPanel16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel17.resx">
+      <DependentUpon>QuestionPanel17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel18.resx">
+      <DependentUpon>QuestionPanel18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel19.resx">
+      <DependentUpon>QuestionPanel19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel2.resx">
+      <DependentUpon>QuestionPanel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel20.resx">
+      <DependentUpon>QuestionPanel20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel3.resx">
+      <DependentUpon>QuestionPanel3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel4.resx">
+      <DependentUpon>QuestionPanel4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel5.resx">
+      <DependentUpon>QuestionPanel5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel7.resx">
+      <DependentUpon>QuestionPanel7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel8.resx">
+      <DependentUpon>QuestionPanel8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel9.resx">
+      <DependentUpon>QuestionPanel9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Questions Screen.resx">
+      <DependentUpon>Questions Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionPanel6.resx">
+      <DependentUpon>QuestionPanel6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecondDraftQuestions.resx">
+      <DependentUpon>SecondDraftQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bass-clef.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
